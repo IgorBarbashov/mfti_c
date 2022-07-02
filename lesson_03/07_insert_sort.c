@@ -26,6 +26,7 @@ void array_print(int A[], int size) {
     printf("\n");
 }
 
+// наихудший случай по времени - асимптотика O(n^2)
 void array_insert_sort(int A[], int size) {
     for (int i = 1; i < size; i++) {
         int j = i - 1;
